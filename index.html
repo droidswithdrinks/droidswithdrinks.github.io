@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Droids with Drinks</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:title" content="Droids with Drinks" />
+    <meta property="og:url" content="//www.droidswithdrinks.com" />
+    <meta
+      property="og:image"
+      content=""
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js"
+      integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js"
+      integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.1/js/regular.js"
+      integrity="sha384-Uc9toywOA44owltk1MWl0lQZ+L0mBzJkLQcdif6+JtG9izvok9DLJtCZX57Uq3k2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <br />
+    <center>
+      <img class="yes-image" />
+      <br />
+      <br />
+      <p class="no-margin">
+        <span class="line" id="myspan">title</span>
+        <span class="line"></span>
+      </p>
+      
+      <p class="small-text">
+        <span class="line">droids with drinks</span>
+        <span class="line"></span>
+      </p>
+      
+      <script type="text/javascript">
+        var imgsrc = getImageSrc();
+        var title = imgsrc.title
+        var imgElement = document.querySelector(".yes-image")
+        imgElement.setAttribute("src", imgsrc.url);
+        imgElement.setAttribute("alt", imgsrc.alt);
+        imgElement.setAttribute("title", imgsrc.title);
+        document.getElementById("myspan").innerHTML = imgsrc.title;
+      </script>
+
+      <br /><br /><br />
+      <br /><br /><br />
+      
+    </center>
+
+    <br />
+    <hr />
+    <br />
+
+    <p>
+      <center>
+        For more encouragment<br />(and some jokes):
+        <br />
+        <br />
+
+        <div class="social-links">
+          <a href="https://twitter.com/_sierraobryan">
+            <i class="fab fa-twitter" title="Bad jokes on Twitter"></i>
+          </a>
+          <a href="https://github.com/sierraobryan">
+            <i class="fab fa-github" title="Better mobile repos on GitHub"></i>
+          </a>
+          <a href="https://linkedin.com/in/sierraobryan">
+            <i
+              class="fab fa-linkedin"
+              title="Professional work on LinkedIn"
+            ></i>
+          </a>
+          <a href="mailto:sierrarobryan@gmail.com">
+            <i class="far fa-paper-plane" title="Send me a note"> </i>
+          </a>
+        </div>
+      </center>
+    </p>
+    <hr />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>
