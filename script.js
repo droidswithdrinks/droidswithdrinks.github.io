@@ -20,12 +20,12 @@ var imageURLs = [
     title: "MAD martinis"
   },
   {
-    url: "images/droids_bloody.png",
+    url: "images/android_bloody.png",
     alt: "Two androids cheersing bloody marys",
     title: "Brunch Bunch"
   },
   {
-    url: "images/droids_bubble_tea.png",
+    url: "images/droid_bubble_tea.png",
     alt: "Two androids cheersing bubble teas",
     title: "procrasTEAnating"
   },
@@ -35,7 +35,7 @@ var imageURLs = [
     title: "Five star cocktail"
   },
   {
-    url: "images/droids_smoothies.png",
+    url: "images/droids_smoothie.png",
     alt: "Two androids cheersing smoothies",
     title: "Smooth(l)ie running apps"
   }
