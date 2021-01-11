@@ -1,3 +1,3 @@
 ### droidswithdrinks.github.io
 
-drinkswithdroids.com
+[droidswithdrinks](droidswithdrinks.com)
